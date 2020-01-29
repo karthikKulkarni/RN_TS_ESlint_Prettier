@@ -49,7 +49,7 @@ Package name can be updated using "react-native-rename" npm. But this also chang
 
 `"exclude": [ "__tests__/**/*-test.ts" ]`
 
-#### 9. Enable Hermes engine for android - https://facebook.github.io/react-native/docs/hermes
+#### 9. Enable Hermes engine for android <a href="https://facebook.github.io/react-native/docs/hermes">Link</a>
 
 `android/app/build.gradle`<br/>
 "enableHermes": true // clean and rebuild if changing</br>
