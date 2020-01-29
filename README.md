@@ -2,13 +2,7 @@
 
 A boiler plate for React Native 0.61, TS 3.7, ES Lint 6.8, Prettier 1.19, Jest 24.9
 
-Date : 29 Jan 2020 Updated: 29 Jan 2020
-
-Steps:
-
-This is a simple boiler plate for React native app with TypeScript, ESLint, pritter.
-
-Date : 29 Jan 2020 Updated: 29 Jan 2020
+#### Updated: 29 Jan 2020
 
 ### Steps:
 
