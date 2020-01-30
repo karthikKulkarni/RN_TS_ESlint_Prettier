@@ -4,7 +4,7 @@ A boiler plate for React Native 0.61, TS 3.7, ES Lint 6.8, Prettier 1.19, Jest 2
 
 #### Updated: 29 Jan 2020
 
-### Below steps can help you build your own:
+### Steps:
 
 #### 1. Update react native to latest globally
 
@@ -39,10 +39,15 @@ Package name can be updated using "react-native-rename" npm. But this also chang
 
 #### 6. Config ES lint
 
-`module.exports = { root: true, extends: ['@react-native-community', 'airbnb-typescript', 'prettier', 'prettier/@typescript-eslint', 'prettier/react'], };`
+Make sure you have ESLint plugin installed for VSCode</br>
+`module.exports = { root: true, extends: ['@react-native-community', 'airbnb-typescript', 'prettier', 'prettier/@typescript-eslint', 'prettier/react'], };` </br>
+
+Additionally update the VSCode Workspace setting, add </br>
+`"eslint.validate": [ "javascript", "javascriptreact", "typescript", "typescriptreact" ]`
 
 #### 7. Config prettier
 
+Make sure you have Prettier plugin installed for VSCode</br>
 `{ "singleQuote": true, "trailingComma": "all", }`
 
 #### 8. Exclude test files from ts in tsconfig.js
