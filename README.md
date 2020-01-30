@@ -4,7 +4,7 @@ A boiler plate for React Native 0.61, TS 3.7, ES Lint 6.8, Prettier 1.19, Jest 2
 
 #### Updated: 29 Jan 2020
 
-### Steps:
+### Below steps can help you build your own:
 
 #### 1. Update react native to latest globally
 
