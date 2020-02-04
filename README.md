@@ -72,3 +72,18 @@ or<br/>
 `$ git add .` </br>
 `$ git commit -m "Config TS ES prettier"`</br>
 `$ git push`</br>
+
+#### 12. Setup Husky and configure to check any prettier and Eslint
+
+#### Install Husky
+
+`$ npm install --save-dev pretty-quick husky` </br>
+
+#### Configure husky in package.json
+
+`"husky": { "hooks": { "pre-commit": "pretty-quick --staged && npm run lint" } }`
+
+All set!!! build the app using
+`$react-native run-ios/run-android` </br>
+or</br>
+`$yarn android/ios`</br>
