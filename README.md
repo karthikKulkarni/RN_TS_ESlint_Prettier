@@ -40,6 +40,7 @@ Package name can be updated using "react-native-rename" npm. But this also chang
 #### 6. Config ES lint
 
 Make sure you have ESLint plugin installed for VSCode</br>
+And update .eslintrc.js </br>
 `module.exports = { root: true, extends: ['@react-native-community', 'airbnb-typescript', 'prettier', 'prettier/@typescript-eslint', 'prettier/react'], };` </br>
 
 Additionally update the VSCode Workspace setting, add </br>
