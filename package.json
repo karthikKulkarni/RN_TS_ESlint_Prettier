@@ -9,7 +9,7 @@
     "test": "jest",
     "lint": "tsc --noEmit && eslint --ext .js,.jsx,.ts,.tsx ./",
     "clean": "watchman watch-del-all && rm -rf $TMPDIR/react-native-packager-cache-* && rm -rf $TMPDIR/haste-map-react-native-packager-* && rm -rf $TMPDIR/metro-bundler-cache-* ",
-    "clean:node": "rm -rf node_modules/ && yarn cache clean && yarn install",
+    "clean:node": "rm -rf node_modules/ && yarn cache clean",
     "clean:ios": "rm -rf ios/build",
     "clean:android": "rm -rf android/.gradle && rm -rf android/.idea && rm -rf android/build && rm -rf android/app/build ",
     "clean:all": "yarn run clean && yarn run clean:node && yarn clean:ios && yarn clean:android",
