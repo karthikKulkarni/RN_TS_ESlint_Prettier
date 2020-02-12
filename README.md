@@ -1,4 +1,4 @@
-# RN_TS_ESlint_Prettier
+# ReactNative_TS_ESlint_Prettier
 
 A boiler plate for React Native 0.61, TS 3.7, ES Lint 6.8, Prettier 1.19, Jest 24.9
 
