@@ -1,8 +1,12 @@
 # ReactNative_TS_ESlint_Prettier
 
-A boiler plate for React Native 0.61, TS 3.7, ES Lint 6.8, Prettier 1.19, Jest 24.9
+A boiler plate for React Native, TS, ES Lint, Prettier, Jest
 
-#### Updated: 29 Jan 2020
+#### Updated: 28 May 2020
+
+# Upgrade all the libs/dependencies to latest before starting off to build actual funtionality
+
+`$ yarn upgrade-interactive --latest`
 
 ### Steps:
 
