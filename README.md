@@ -3,7 +3,8 @@
 A boiler plate for React Native, TS, ES Lint, Prettier, Jest
 
 
-# Upgrade all the libs/dependencies to latest before starting off to build actual funtionality
+# This Boiler plate is now deprecated since lots of libs are update 
+Refer latest Boiler plate at <a href="https://github.com/karthikKulkarni/RN_Boilerplate">RN_Boilerplate</a> 
 
 `$ yarn upgrade-interactive --latest`
 
