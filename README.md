@@ -2,7 +2,6 @@
 
 A boiler plate for React Native, TS, ES Lint, Prettier, Jest
 
-#### Updated: 28 May 2020
 
 # Upgrade all the libs/dependencies to latest before starting off to build actual funtionality
 
